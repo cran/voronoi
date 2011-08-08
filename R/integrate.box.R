@@ -13,6 +13,3 @@ function(x.lims, y.lims, f = NULL, antideriv.x = NULL, antideriv.y = NULL) {
       return(integrate(int.func, x.lims[1], x.lims[2])$value)
    }
 }
-
-
-#repeat 3 examples with system.time()

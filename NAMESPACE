@@ -1,0 +1,24 @@
+#=====> Export <=====#
+# Makes functions available to users
+export(adap.kern, angle, bw, centroidal, fd, find.edge, integrate.box, moon, pattern.sim, polygon.adapt, ridge, ve, voronoi.game)
+
+#=====> Import <=====#
+# Make other package elements available
+import("stats", "utils", "graphics", "grDevices",
+	"spatialkernel", "gpclib")
+# Packages without namespace wanted to attach: deldir and splancs
+# Import a specific function (may add more than one, i.e. ...)
+
+#=====> On Load <=====#
+# optional
+# .onLoad()
+# optional
+# .onAttach()
+
+#=====> Methods <=====#
+S3method(plot, ve)
+S3method(plot, summaryve)
+S3method(points, ve)
+S3method(print, summaryve)
+S3method(summary, ve)
+

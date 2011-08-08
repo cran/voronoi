@@ -12,9 +12,9 @@ Methods and applications related to Voronoi tessellations
 \tabular{ll}{
 Package: \tab voronoi\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2011-01-30\cr
-License: \tab GPL-2\cr
+Version: \tab 1.1\cr
+Date: \tab 2011-08-08\cr
+License: \tab GPL-3\cr
 Depends: \tab R (>= 2.11.1), deldir, spatialkernel, splancs, gpclib\cr
 LazyLoad: \tab yes\cr
 }
